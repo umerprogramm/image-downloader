@@ -1,0 +1,29 @@
+{
+  "name": "youtube_download",
+  "version": "1.0.0",
+  "description": "This is my project",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umerprogramm/U-download.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umerprogramm/U-download/issues"
+  },
+  "homepage": "https://github.com/umerprogramm/U-download#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "image-downloader": "^4.0.3",
+    "nodemon": "^2.0.15"
+  }
+}

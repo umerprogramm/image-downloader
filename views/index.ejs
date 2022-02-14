@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>U Download</title>
+</head>
+<body>
+    <nav class="nav">
+    <h2>U download<h/2>
+    </nav>
+
+    <div class="container">
+      <h1>Hello</h1>
+        <form action="/resgister" method="POST">
+          <input  type="text"  name="Username" value=""><br><br>
+          <input  id="sumbit" type="submit" value="Submit">
+        </form>
+        </div>
+<script>
+  document.getElementById("sumbit").addEventListener("click", function() {
+  console.log(document.getElementById('sumbit').value)
+});
+</script>
+</body>
+</html>
